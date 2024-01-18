@@ -1,0 +1,78 @@
+.hero {
+  height: 80vh;
+  background-image: url("../../assets/social-hands.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.wrapper {
+  height: 2px;
+}
+
+.container {
+  background-color: gray;
+}
+
+.label {
+  font-size: 0px;
+  color: green;
+}
+
+.opp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  border: 1px;
+  font-size: xx-large;
+  color: white;
+}
+
+.farm {
+  background-image: url("../../assets/CommercialFarming-1.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.mine {
+  background-image: url("../../assets/mining.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.soft {
+  background-image: url("../../assets/code.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.food {
+  background-image: url("../../assets/food.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.edu {
+  background-image: url("../../assets/ed.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.med {
+  background-image: url("../../assets/medicine.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.banner {
+  background-image: url("../../assets/hands.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}

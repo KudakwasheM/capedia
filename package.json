@@ -1,0 +1,42 @@
+{
+  "name": "middle",
+  "version": "1.0.0",
+  "description": "Web application to act as middleman between investors and investees",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Kudakwashe Masaya",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "datauri": "^4.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.1",
+    "filereader": "^0.10.3",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^5.9.1",
+    "mongoose": "^7.6.7",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemailer": "^6.9.7",
+    "react-icons": "^4.10.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^2.0.22"
+  }
+}

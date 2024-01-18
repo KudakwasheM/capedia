@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"); */
+body {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+/* body {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: Comic Sans MS, sans-serif;
+  color: black;
+} */
+
+/* .active {
+  opacity: 1;
+}
+
+.inactive {
+  opacity: 0;
+} */
